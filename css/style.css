@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 22px;
+}
+
+/*Styles for Pop-Up message*/
+
+
+.popup-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.438);
+}
+
+.hide {
+    display: none;
+}
+
+.popup-body {
+    position: relative;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    transform: translate(-50%, -70%);
+}
+
+.popup-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-bottom: 1px solid gray;
+}
+
+.popup-results {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 1px 0;
+}
+
+.popup-close {
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.popup-button {
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
