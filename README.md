@@ -2,6 +2,8 @@
 
 ## Table of Contents
 
+* [Installation](#installation)
+* [Usage](#usage)
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
